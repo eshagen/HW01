@@ -9,3 +9,13 @@
 # average time per mile? What is your average speed in miles per hour? 
 # (Hint: there are 1.61 kilometers in a mile).
 # Average Speed in MPH:
+
+raceKM = 10 # race distance in kilometers
+raceMiles = raceKM / 1.61 # race distance in miles
+raceTime = 43.5 # time to complete race in minutes
+
+avgTimePerMile = raceTime / raceMiles # determining the average time per mile
+print "Average time per mile:", avgTimePerMile, "minutes."
+
+avgMPH = 60 / avgTimePerMile # compute speed in miles per hour
+print "Average speed in miles per hour:", avgMPH, "MPH."
